@@ -1,0 +1,144 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor":"#257AFA",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "订单列表",
+				"navigationBarBackgroundColor":"#257AFA",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/order/add",
+			"style": {
+				"navigationBarTitleText": "发布订单"
+			}
+		},
+		{
+			"path": "pages/master/info",
+			"style": {
+				"navigationBarTitleText": "联合修",
+				"navigationBarBackgroundColor":"#257AFA",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/order/select",
+			"style": {
+				"navigationBarTitleText": "选择下单模式"
+			}
+		},
+		{
+			"path": "pages/address/add",
+			"style": {
+				"navigationBarTitleText": "添加服务地址"
+			}
+		},
+		{
+			"path": "pages/address/edit",
+			"style": {
+				"navigationBarTitleText": "编辑服务地址"
+			}
+		},
+		{
+			"path": "pages/categ/index",
+			"style": {
+				"navigationBarTitleText": "选择服务",
+				"navigationBarBackgroundColor":"#257AFA",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/order/pay",
+			"style": {
+				"navigationBarTitleText": "支付订单"
+			}
+		},
+		
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#DFECFF",
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			"path": "pages/my/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+		{
+			"path": "pages/my/qrcode",
+			"style": {
+				"navigationBarTitleText": "我的二维码"
+			}
+		},
+		{
+			"path": "pages/my/group",
+			"style": {
+				"navigationBarTitleText": "我的团队"
+			}
+		},
+		{
+			"path": "pages/auth/index",
+			"style": {
+				"navigationBarTitleText": "授权登陆"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "联合修维保",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"tabBar": {
+		"color": "#676767",
+		"selectedColor": "#4F87E5",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/images/footbar/icon_home.png",
+				"selectedIconPath": "/static/images/footbar/icon_home_hover.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/order/index",
+				"iconPath": "/static/images/footbar/icon_order.png",
+				"selectedIconPath": "/static/images/footbar/icon_order_hover.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "/static/images/footbar/icon_mine.png",
+				"selectedIconPath": "/static/images/footbar/icon_mine_hover.png",
+				"text": "我的"
+			}
+		]
+	}
+}

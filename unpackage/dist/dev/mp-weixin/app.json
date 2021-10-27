@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/detail",
+    "pages/order/index",
+    "pages/order/add",
+    "pages/master/info",
+    "pages/order/select",
+    "pages/address/add",
+    "pages/address/edit",
+    "pages/categ/index",
+    "pages/order/pay",
+    "pages/my/index",
+    "pages/my/feedback",
+    "pages/my/qrcode",
+    "pages/my/group",
+    "pages/auth/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "联合修维保",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#676767",
+    "selectedColor": "#4F87E5",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/images/footbar/icon_home.png",
+        "selectedIconPath": "/static/images/footbar/icon_home_hover.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/index",
+        "iconPath": "/static/images/footbar/icon_order.png",
+        "selectedIconPath": "/static/images/footbar/icon_order_hover.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "/static/images/footbar/icon_mine.png",
+        "selectedIconPath": "/static/images/footbar/icon_mine_hover.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap47.json"
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "订单列表",
+  "navigationBarBackgroundColor": "#257AFA",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "jszd": "/components/jszd",
+    "pop": "/components/ming-pop",
+    "pop2": "/components/ming-pop2"
+  }
+}

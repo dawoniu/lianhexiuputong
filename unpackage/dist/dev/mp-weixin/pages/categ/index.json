@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "选择服务",
+  "navigationBarBackgroundColor": "#257AFA",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "lazy-image": "/components/lazy-image"
+  }
+}
